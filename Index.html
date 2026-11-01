@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My First App</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background: #f0f4ff;
+      padding: 40px 20px;
+    }
+
+    button {
+      padding: 14px 24px;
+      border: none;
+      border-radius: 12px;
+      background: #2563eb;
+      color: white;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>My First App 🚀</h1>
+  <p id="message">Welcome to my app!</p>
+  <button onclick="sayHello()">Tap Me</button>
+
+  <script>
+    function sayHello() {
+      document.getElementById("message").textContent =
+        "It works! 🎉";
+    }
+  </script>
+</body>
+</html>  
